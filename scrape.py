@@ -9,4 +9,4 @@ while True:
     stock = soup.find_all('p', 'availability out-of-stock')
     print(stock)
 
-    time.sleep(30 * 60)
+    time.sleep(15 * 60)
